@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define CSS custom properties (design tokens) */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 221.2 83.2% 53.3%;
+  --secondary: 210 40% 96.1%;
+  --muted: 210 40% 96.1%;
+  --accent: 210 40% 90%;
+  --destructive: 0 100% 50%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 221.2 83.2% 53.3%;
+  --radius: 0.5rem;
+}
+
+/* Custom background and text colors using HSL tokens */
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
