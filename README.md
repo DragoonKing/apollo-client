@@ -12,14 +12,6 @@ A full-stack web application that clones the Apollo247 doctor listing functional
 - **SEO Optimized**: Meta tags, structured data, and semantic HTML
 - **Responsive Design**: Works seamlessly on desktop and mobile
 
-## Tech Stack
-
-### Frontend
-- React with TypeScript
-- Wouter for routing
-- Tailwind CSS + Shadcn UI components
-- TanStack Query for data fetching
-- React Hook Form for filters
 
 ### Backend
 - Node.js with Express
